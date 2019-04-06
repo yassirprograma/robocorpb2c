@@ -75,6 +75,13 @@ body {
 
 }
 
+/*nexus10*/
+@media (height: 1280px) and (width: 800px) {
+
+
+
+}
+
 /*
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
@@ -91,7 +98,7 @@ body {
   }
 
   .secmenu{
-    position: absolute!important;
+    position: absolute;
 
 
   }
@@ -144,7 +151,7 @@ body {
   position:relative;
   width: 90%!important;
 
-  margin-left: 5%!important;
+  left: 5%!important;
 
 
 

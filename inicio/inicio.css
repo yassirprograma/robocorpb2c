@@ -17,3 +17,134 @@ padding: 0;
 .gore {
   background-color: rgb(54, 88, 111);
 }
+
+
+
+
+@media (min-width: 1281px) {
+
+  .imagecarousel {
+
+    width: 100%;
+    max-height: 200px;
+  }
+  .bajocar1 {
+      width: 50%;
+  }
+ .bajocar2 {
+      width: 50%;
+      float: right;
+ }
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1021px) and (max-width: 1280px) {
+  .imagecarousel {
+
+    width: 100%;
+    max-height: 200px;
+  }
+  .bajocar1 {
+      width: 50%;
+  }
+ .bajocar2 {
+      width: 50%;
+      float: right;
+ }
+
+
+}
+
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1020px) {
+
+  .imagecarousel {
+
+    width: 100%;
+    max-height: 120px;
+  }
+  .bajocar1 {
+      width: 50%;
+  }
+ .bajocar2 {
+      width: 50%;
+      float: right;
+ }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .imagecarousel {
+
+    width: 100%;
+    max-height: 90px;
+  }
+  .bajocar1 {
+      width: 50%;
+  }
+ .bajocar2 {
+      width: 50%;
+      float: right;
+ }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .imagecarousel {
+
+    width: 100%;
+    max-height: 80px;
+  }
+  .bajocar1 {
+      width: 100%;
+  }
+ .bajocar2 {
+      width: 100%;
+
+ }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .imagecarousel {
+
+    width: 100%;
+    max-height: 80px;
+  }
+  .bajocar1 {
+      width: 100%;
+  }
+ .bajocar2 {
+      width: 100%;
+
+ }
+
+
+}

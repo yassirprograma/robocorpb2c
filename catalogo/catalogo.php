@@ -7,7 +7,7 @@
       "../plantilla/carga.php"
       )
      ?>
-    <title>Contacto</title>
+    <title>Catalogo</title>
   </head>
 
   <body>

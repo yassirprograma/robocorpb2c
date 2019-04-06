@@ -45,7 +45,7 @@ include_once(
 
     <script type="text/javascript">
     $('.carousel').carousel({
-      interval: 8000,
+      interval: 2000,
       pause:true,
       wrap:false
     });
@@ -66,7 +66,74 @@ include_once(
 
 <div class="contenido">
 
-<div id="myCarouselCustom" class="carousel slide" data-ride="carousel">
+
+
+  <div id="my" class="carousel slide" data-ride="carousel">
+
+
+    <div class="carousel-inner img">
+
+      <div class="item active">
+        <img src="img/principal.png" class="imagecarousel">
+        <div class=carousel-caption>
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/carousel2.png" class="imagecarousel">
+        <div class="carousel-caption">
+          <h3> </h3>
+          <p>  </p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/carousel3.png" class="imagecarousel">
+        <div class="carousel-caption">
+          <h3> </h3>
+          <p>  </p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/carousel4.png" class="imagecarousel">
+        <div class="carousel-caption">
+          <h3> </h3>
+          <p>  </p>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript">
+  $('.carousel').carousel({
+    interval: 8000,
+    pause:true,
+    wrap:false
+  });
+  </script>
+
+
+<div id="myCarouselCustom" class="carousel slide" data-ride="carousel" style="top:10px; position:relative;">
   <ol class="carousel-indicators">
     <li data-target="#myCarouselCustom" data-slide-to="0" > </li>
     <li data-target="#myCarouselCustom" data-slide-to="1" > </li>
@@ -116,8 +183,19 @@ include_once(
   </a>
 </div>
 
-  <img src="img/carousel4.png" style=" width:50%;">
-  <img src="img/carousel5.png" style=" width:50%;">
+
+
+
+
+
+
+
+
+
+
+  <img src="img/carousel4.png" class="bajocar1" >
+  <img src="img/carousel5.png"  class="bajocar2" >
+
 
 
 
