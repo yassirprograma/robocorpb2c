@@ -68,35 +68,44 @@ include_once(
 
 <div id="myCarouselCustom" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#myCarouselCustom" data-slide-to="0" class="active"> </li>
+    <li data-target="#myCarouselCustom" data-slide-to="0" > </li>
     <li data-target="#myCarouselCustom" data-slide-to="1" > </li>
     <li data-target="#myCarouselCustom" data-slide-to="2" > </li>
+
+
+
   </ol>
 
   <div class="carousel-inner">
+
     <div class="item active">
-      <img src="nel.jpg" alt=" ">
+      <img src="img/principal.png" alt=" ">
       <div class=carousel-caption>
-        <h3>Trird Slide</h3>
-        <p>Este es el primero</p>
+        <h3></h3>
+        <p></p>
       </div>
     </div>
 
     <div class="item">
-      <img src="no.jpg" alt="">
+      <img src="img/carousel2.png" alt="">
       <div class="carousel-caption">
-        <h3> este es el segundo papulinses </h3>
-        <p> ke onda rasa </p>
+        <h3> </h3>
+        <p>  </p>
       </div>
     </div>
+
     <div class="item">
-      <img src="si.jpg" alt="">
+      <img src="img/carousel3.png" alt="">
       <div class="carousel-caption">
-        <h3> este es el tercero papulinses </h3>
-        <p> ke mierdas kieres rasa </p>
+        <h3> </h3>
+        <p>  </p>
       </div>
     </div>
   </div>
+
+
+
+
   <a class="left carousel-control" href="#myCarouselCustom" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"> </span>
     <span class="sr-only">Previous</span>
@@ -107,8 +116,8 @@ include_once(
   </a>
 </div>
 
-
-
+  <img src="img/carousel4.png" style=" width:50%;">
+  <img src="img/carousel5.png" style=" width:50%;">
 
 
 

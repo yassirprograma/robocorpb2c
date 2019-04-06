@@ -8,7 +8,7 @@
      <span class="icon-bar"></span>
      <span class="icon-bar"></span>
    </button>
-   <img src="/img/LOGO.png" alt="" class="robo animated infinite pulse" >
+   <img src="/img/LOGO.png" alt="" class=" animated infinite pulse" >
    <a class="navbar-brand" > </a>
  </div>
 
