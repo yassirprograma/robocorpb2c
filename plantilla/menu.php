@@ -26,6 +26,9 @@
      </li>
      <li class="secmenu"><a  href="/promociones/promociones.php">PROMOCIONES</a></li>
 
+     <li class="secmenu"> <a  href="/catalogo/catalogo.php">CATÁLOGO</a> </li>
+
+
      <li class="dropdown secmenu">
        <a href="" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACTO <span class="caret"></span></a>
        <ul class="dropdown-menu">
@@ -44,7 +47,7 @@
 
     <!-- <li class="secmenu"> <a   href="/contacto/contacto.php">CONTACTO</a>  </li>-->
 
-     <li class="secmenu"> <a  href="/ayuda/ayuda.php">AYUDA</a> </li>
+
 
 
 <!--
