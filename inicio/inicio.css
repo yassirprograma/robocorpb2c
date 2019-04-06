@@ -1,0 +1,19 @@
+*{
+margin-top: 0px;
+margin-right: 0px;
+margin-left: 0px;
+margin-bottom: 0px; /*    ESTO ES UN ESTILO PARA QUE FUNCIONE BIEN CON LOS NAVEGADORES*/
+padding: 0;
+
+}
+
+.hola{
+
+
+    width: 70%;
+    background-color: rgb(228, 2, 87);
+}
+
+.gore {
+  background-color: rgb(54, 88, 111);
+}

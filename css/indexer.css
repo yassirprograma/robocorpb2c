@@ -1,0 +1,166 @@
+*{
+margin-top: 0px;
+margin-right: 0px;
+margin-left: 0px;
+margin-bottom: 0px; /*    ESTO ES UN ESTILO PARA QUE FUNCIONE BIEN CON LOS NAVEGADORES*/
+padding: 0;
+
+}
+#particles-js {
+	width:100%;
+	height:100%; /*ESTILOS DE LA ANIMACIÓN*/
+	position:fixed;
+	background:rgba(0,0,0,.8);
+  z-index: -1;
+}
+
+body {
+	font-family: oswald, helvetica, arial, sans-serif;
+	background: #000;             /* estilos del cuerpo*/
+	background-size: cover;
+	background-attachment:fixed;
+
+}
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+.secmenu {
+  border-radius: 10% !important;
+}
+.secmenu:hover {
+  background: rgb(74, 73, 69) !important;
+}
+
+
+@media (min-width: 1281px) {
+
+
+  .crucio {
+    position:absolute;
+    margin-top: 2% !important;
+    margin-left: 15% !important;
+    width:100%  !important;
+
+  }
+
+  .secmenu{
+    position: absolute ;
+    margin-left: 10% !important;
+
+  }
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1021px) and (max-width: 1280px) {
+
+  .crucio {
+    position:absolute;
+    margin-top: 2% !important;
+    margin-left: 30% !important;
+    width:100%  !important;
+
+  }
+
+  .secmenu{
+    position: absolute;
+    margin-left: 5% !important;
+
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1020px) {
+
+  .crucio {
+    position:absolute;
+    margin-top: 3% !important;
+    margin-left: 40% !important;
+    width:100%  !important;
+
+  }
+
+  .secmenu{
+    position: absolute!important;
+
+
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+
+}
+
+
+
+
+
+.alpha {
+
+}
+
+.contenido {
+  border-radius: 1%;
+  position:relative;
+  width: 90%!important;
+
+  margin-left: 5%!important;
+
+
+
+}
+.contenido p {
+  position: relative;
+  margin: 2%!important;
+}
+.pie {
+  margin-top: 0.5%!important;
+
+  margin-bottom: 0.5%!important;
+  height: 200px!important;
+
+  width: 100%!important;
+  color: #cccccc!important;
+  background-color: #222222!important;
+
+}
