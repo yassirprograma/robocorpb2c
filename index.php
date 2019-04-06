@@ -10,7 +10,7 @@ include_once(
 
 
  ?>
- <link rel="stylesheet" href="/inicio/inicio.css">
+ <link rel="stylesheet" href="/inicio/css/inicio.css">
     <title>Robocorp</title>
   </head>
 
@@ -74,7 +74,8 @@ include_once(
     <div class="carousel-inner img">
 
       <div class="item active">
-        <img src="img/principal.png" class="imagecarousel">
+        <img src="inicio/img/slider1.png" class="imagecarousel">
+        <img src="inicio/img/25.png" style="position:absolute; top:9%; height:80%; left:2%;"   class="animated  tada">
         <div class=carousel-caption>
           <h3></h3>
           <p></p>
@@ -82,7 +83,13 @@ include_once(
       </div>
 
       <div class="item">
-        <img src="img/carousel2.png" class="imagecarousel">
+        <img src="inicio/img/azul.png" class="imagecarousel">
+
+        <img class="animated  rollIn" src=" inicio/img/logosbonitos/pololu.png" style="position:absolute; top:5%; left:3%; width:15%;">
+        <img class="animated  jackInTheBox" src=" inicio/img/logosbonitos/arduino.png" style="position:absolute; top:5%; left:23%; width:15%;">
+        <img class="animated  rollIn"  src=" inicio/img/logosbonitos/raspberry-pi.png" style="position:absolute; top:5%; left:43%; width:15%;">
+        <img class="animated jackInTheBox" src=" inicio/img/logosbonitos/adafruit.png" style="position:absolute; top:5%; left:63%; width:15%;">
+        <img class="animated  rollIn" src=" inicio/img/logosbonitos/monkits.png" style="position:absolute; top:5%; left:83%; width:15%;">
         <div class="carousel-caption">
           <h3> </h3>
           <p>  </p>
@@ -90,7 +97,13 @@ include_once(
       </div>
 
       <div class="item">
-        <img src="img/carousel3.png" class="imagecarousel">
+        <img src="inicio/img/azul.png" class="imagecarousel">
+
+        <img class="animated  rollIn" src=" inicio/img/logosbonitos/herramientas-1.png" style="position:absolute; top:5%; left:3%; width:15%;">
+        <img class="animated  jackInTheBox" src=" inicio/img/logosbonitos/partes-y-componentes.png" style="position:absolute; top:5%; left:23%; width:15%;">
+        <img class="animated  rollIn"  src=" inicio/img/logosbonitos/motores.png" style="position:absolute; top:5%; left:43%; width:15%;">
+        <img class="animated jackInTheBox" src=" inicio/img/logosbonitos/energia.png" style="position:absolute; top:5%; left:63%; width:15%;">
+        <img class="animated  rollIn" src=" inicio/img/logosbonitos/cables-y-conectores.png" style="position:absolute; top:5%; left:83%; width:15%;">
         <div class="carousel-caption">
           <h3> </h3>
           <p>  </p>
@@ -98,7 +111,13 @@ include_once(
       </div>
 
       <div class="item">
-        <img src="img/carousel4.png" class="imagecarousel">
+        <img src="inicio/img/azul.png" class="imagecarousel">
+
+        <img class="animated  rollIn" src=" inicio/img/logosbonitos/comunicacion.png" style="position:absolute; top:5%; left:3%; width:15%;">
+        <img class="animated  jackInTheBox" src=" inicio/img/logosbonitos/kits-y-proyectos-1.png" style="position:absolute; top:5%; left:23%; width:15%;">
+        <img class="animated  rollIn"  src=" inicio/img/logosbonitos/pantallas-lcd.png" style="position:absolute; top:5%; left:43%; width:15%;">
+        <img class="animated jackInTheBox" src=" inicio/img/logosbonitos/drones.png" style="position:absolute; top:5%; left:63%; width:15%;">
+        <a href="/promociones/promociones.php"><img  class="animated  infinite bounceIn" src=" inicio/img/logosbonitos/oferta.png" style="position:absolute; top:5%; left:83%; width:15%;"></a> 
         <div class="carousel-caption">
           <h3> </h3>
           <p>  </p>
@@ -146,7 +165,7 @@ include_once(
   <div class="carousel-inner">
 
     <div class="item active">
-      <img src="img/principal.png" alt=" ">
+      <img src="inicio/img/principal.png" alt=" ">
       <div class=carousel-caption>
         <h3></h3>
         <p></p>
@@ -154,7 +173,7 @@ include_once(
     </div>
 
     <div class="item">
-      <img src="img/carousel2.png" alt="">
+      <img src="inicio/img/carousel2.png" alt="">
       <div class="carousel-caption">
         <h3> </h3>
         <p>  </p>
@@ -162,7 +181,7 @@ include_once(
     </div>
 
     <div class="item">
-      <img src="img/carousel3.png" alt="">
+      <img src="inicio/img/carousel3.png" alt="">
       <div class="carousel-caption">
         <h3> </h3>
         <p>  </p>
@@ -193,8 +212,8 @@ include_once(
 
 
 
-  <img src="img/carousel4.png" class="bajocar1" >
-  <img src="img/carousel5.png"  class="bajocar2" >
+  <img src="inicio/img/carousel4.png" class="bajocar1" >
+  <img src="inicio/img/carousel5.png"  class="bajocar2" >
 
 
 
