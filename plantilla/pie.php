@@ -1,19 +1,37 @@
+<div class="miniredes">
+  <a class="btn btn-social-icon btn-twitter">
+    <span class="fab fa-twitter"></span>
+  </a>
+  <a class="btn btn-social-icon btn-facebook">
+    <span class="fab fa-facebook"></span>
+  </a>
+  <a class="btn btn-social-icon btn-instagram">
+    <span class="fab fa-instagram"></span>
+  </a>
+  <a class="btn btn-social-icon btn-linkedin">
+    <span class="fab fa-linkedin"></span>
+  </a>
+  <a class="btn btn-social-icon btn-github">
+    <span class="fab fa-github"></span>
+  </a>
 
-<div class="redes">
-  <a class="btn btn-block btn-social btn-twitter" style="width:100%;">
+</div>
+
+<div class="redes ">
+  <a class="btn btn-block btn-social btn-twitter " style="width:100%;">
     <span class="fab fa-twitter"></span> Sign in with Twitter
   </a>
 
-  <a class="btn btn-block btn-social btn-facebook" style="width:100%;">
+  <a class="btn btn-block btn-social btn-facebook " style="width:100%;">
     <span class="fab fa-facebook"></span> Sign in with Facebook
   </a>
-  <a class="btn btn-block btn-social btn-foursquare" style="width:100%;">
+  <a class="btn btn-block btn-social btn-foursquare " style="width:100%;">
     <span class="fab fa-instagram"></span> Sign in with Instagram
   </a>
-  <a class="btn btn-block btn-social btn-linkedin" style="width:100%;">
+  <a class="btn btn-block btn-social btn-linkedin " style="width:100%;">
     <span class="fab fa-linkedin"></span> Linkedin
   </a>
-  <a class="btn btn-block btn-social btn-github" style="width:100%;">
+  <a class="btn btn-block btn-social btn-github " style="width:100%;">
     <span class="fab fa-github"></span> @yassirprograma @IrvinSedeCR7
   </a>
 </div>

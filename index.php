@@ -152,7 +152,7 @@ include_once(
   </script>
 
 
-<div id="myCarouselCustom" class="carousel slide" data-ride="carousel" style="top:10px; position:relative;">
+<div id="myCarouselCustom" class="carousel slide" data-ride="carousel" style="top:30px; position:relative;">
   <ol class="carousel-indicators">
     <li data-target="#myCarouselCustom" data-slide-to="0" > </li>
     <li data-target="#myCarouselCustom" data-slide-to="1" > </li>
@@ -212,8 +212,8 @@ include_once(
 
 
 
-  <img src="inicio/img/carousel4.png" class="bajocar1" >
-  <img src="inicio/img/carousel5.png"  class="bajocar2" >
+  <img src="inicio/img/carousel4.png" class="bajocar1" style="position: relative; top:50px;">
+  <img src="inicio/img/carousel5.png"  class="bajocar2" style="position: relative; top:50px; margin-bottom: 50px;">
 
 
 
