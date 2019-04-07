@@ -59,10 +59,7 @@
 
 
       <div class="pie">
-        <p>aqui es el fondo sossllsososssmsdosd</p>
-        <br>
-
-
+      <?php include_once("../plantilla/pie.php"); ?>
     </div>
   </body>
 </html>

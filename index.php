@@ -117,7 +117,7 @@ include_once(
         <img class="animated  jackInTheBox" src=" inicio/img/logosbonitos/kits-y-proyectos-1.png" style="position:absolute; top:5%; left:23%; width:15%;">
         <img class="animated  rollIn"  src=" inicio/img/logosbonitos/pantallas-lcd.png" style="position:absolute; top:5%; left:43%; width:15%;">
         <img class="animated jackInTheBox" src=" inicio/img/logosbonitos/drones.png" style="position:absolute; top:5%; left:63%; width:15%;">
-        <a href="/promociones/promociones.php"><img  class="animated  infinite bounceIn" src=" inicio/img/logosbonitos/oferta.png" style="position:absolute; top:5%; left:83%; width:15%;"></a> 
+        <a href="/promociones/promociones.php"><img  class="animated  infinite bounceIn" src=" inicio/img/logosbonitos/oferta.png" style="position:absolute; top:5%; left:83%; width:15%;"></a>
         <div class="carousel-caption">
           <h3> </h3>
           <p>  </p>
@@ -165,7 +165,7 @@ include_once(
   <div class="carousel-inner">
 
     <div class="item active">
-      <img src="inicio/img/principal.png" alt=" ">
+      <img src="inicio/img/principal.png" style="max-height: 700px; width:100%;">
       <div class=carousel-caption>
         <h3></h3>
         <p></p>
@@ -241,8 +241,9 @@ include_once(
 
 
   <div class="pie">
-    <p>aqui es el fondo sossllsososssmsdosd</p>
-    <br>
+
+
+    <?php include_once("plantilla/pie.php") ?>
 
 
 </div>

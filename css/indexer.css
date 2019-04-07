@@ -50,6 +50,16 @@ body {
 
   }
 
+	.maps iframe{
+				position: relative;
+				border-radius:10px;
+				width: 300px;
+				height:  300px;
+	}
+	.gm {
+		display: none;
+	}
+
 }
 
 /*
@@ -72,15 +82,20 @@ body {
     margin-left: 5% !important;
 
   }
+	.maps iframe{
+				position: relative;
+				border-radius:10px;
+				width: 300px;
+				height:  300px;
+	}
+	.gm {
+		display: none;
+	}
+
 
 }
 
-/*nexus10*/
-@media (height: 1280px) and (width: 800px) {
 
-
-
-}
 
 /*
   ##Device = Tablets, Ipads (portrait)
@@ -102,6 +117,14 @@ body {
 
 
   }
+	.maps iframe{
+
+			display: none;
+	}
+	.goo {
+			width: 15%;
+	}
+
 
 }
 
@@ -111,7 +134,13 @@ body {
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	.maps iframe{
 
+			display: none;
+	}
+	.goo {
+			width: 15%;
+	}
 
 
 }
@@ -122,8 +151,13 @@ body {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+	.maps iframe{
 
-
+			display: none;
+	}
+	.goo {
+			width: 15%;
+	}
 
 }
 
@@ -134,8 +168,13 @@ body {
 
 @media (min-width: 320px) and (max-width: 480px) {
 
+	.maps iframe{
 
-
+				display: none;
+	}
+	.goo{
+			width: 15%;
+	}
 }
 
 
@@ -160,14 +199,25 @@ body {
   position: relative;
   margin: 2%!important;
 }
+
+
 .pie {
   margin-top: 0.5%!important;
 
   margin-bottom: 0.5%!important;
-  height: 200px!important;
+	position: absolute;
 
   width: 100%!important;
   color: #cccccc!important;
   background-color: #222222!important;
+
+}
+.redes {
+
+position: absolute;
+	top: 17%;
+	width: 30%;
+	left: 40%;
+
 
 }
